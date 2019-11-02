@@ -1,7 +1,7 @@
 Summary:	UPnP and DLNA core library
 Name:		dleyna-core
 Version:	0.5.0
-Release:	2
+Release:	3
 License:	LGPL v2
 Group:		Libraries
 Source0:	https://01.org/sites/default/files/downloads/dleyna/%{name}-%{version}.tar.gz
