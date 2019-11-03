@@ -1,11 +1,11 @@
 Summary:	UPnP and DLNA core library
 Name:		dleyna-core
-Version:	0.5.0
-Release:	3
+Version:	0.6.0
+Release:	1
 License:	LGPL v2
 Group:		Libraries
-Source0:	https://01.org/sites/default/files/downloads/dleyna/%{name}-%{version}.tar.gz
-# Source0-md5:	f9fca59e28f01608bbe98d193184f729
+Source0:	https://01.org/sites/default/files/downloads/dleyna/%{name}-%{version}.tar_3.gz?tar.gz
+# Source0-md5:	4a131b7bfbc5477913fb2ce69b59cf00
 Patch0:		gupnp-1.2.patch
 URL:		https://01.org/dleyna/
 BuildRequires:	autoconf >= 2.66
@@ -66,7 +66,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog README
 %attr(755,root,root) %{_libdir}/libdleyna-core-1.0.so.*.*.*
-%attr(755,root,root) %ghost %{_libdir}/libdleyna-core-1.0.so.4
+%attr(755,root,root) %ghost %{_libdir}/libdleyna-core-1.0.so.5
 %dir %{_libdir}/dleyna-1.0
 %dir %{_libdir}/dleyna-1.0/connectors
 
