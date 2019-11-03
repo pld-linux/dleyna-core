@@ -4,7 +4,8 @@ Version:	0.6.0
 Release:	1
 License:	LGPL v2
 Group:		Libraries
-Source0:	https://01.org/sites/default/files/downloads/dleyna/%{name}-%{version}.tar_3.gz?tar.gz
+#Source0:	https://01.org/sites/default/files/downloads/dleyna/%{name}-%{version}.tar_3.gz
+Source0:	%{name}-%{version}.tar.gz
 # Source0-md5:	4a131b7bfbc5477913fb2ce69b59cf00
 Patch0:		gupnp-1.2.patch
 URL:		https://01.org/dleyna/
