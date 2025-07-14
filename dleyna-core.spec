@@ -36,7 +36,7 @@ This package provides development files for dleyna-core library.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %{__libtoolize}
